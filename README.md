@@ -2,7 +2,7 @@
 
 ![Overview of Multi-Stage Blended Diffusion](overview.jpg)
 
-This repository includes our implementation of Multi-Stage Blended Diffusion, as described in our paper www.arxiv.org/doesntexistyet
+This repository includes our implementation of Multi-Stage Blended Diffusion, as described in our paper [High-Resolution Image Editing via Multi-Stage Blended Diffusion](https://arxiv.org/abs/2210.12965)
 
 Our implementation builds on the original implementation of Latent Diffusion, available at (https://github.com/CompVis/latent-diffusion), which is licensed under the MIT license.
 Specifically `multi-scale-blended-diffusion/ldm`, `multi-scale-blended-diffusion/configs`, and `multi-scale-blended-diffusion/models` are entirely from latent diffusion.
