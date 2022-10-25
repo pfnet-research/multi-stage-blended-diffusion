@@ -85,4 +85,10 @@ latent-diffusion-main/models
 src
 latent-diffusion-main/src
 latent-diffusion-main/outputs
+latent-diffusion-main/output
 latent-diffusion-main/data
+*.pt
+*.png
+RealESRGAN_x4plus.pth
+*.sh
+

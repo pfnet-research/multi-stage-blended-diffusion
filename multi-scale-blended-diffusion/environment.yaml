@@ -1,0 +1,30 @@
+name: msbd
+channels:
+  - pytorch
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8.5
+  - pip
+  - cudatoolkit=11.3
+  - pytorch::pytorch
+  - pytorch::torchvision
+  - pytorch::torchaudio
+  - numpy
+  - jupyterlab
+  - ipycanvas
+  - pip:
+    - albumentations
+    - pudb==2019.2
+    - imageio
+    - imageio-ffmpeg
+    - pytorch-lightning
+    - kornia
+    - omegaconf==2.1.1
+    - test-tube>=0.7.5
+    - einops==0.3.0
+    - transformers
+    - basicsr
+    - realesrgan
+    - -e git+https://github.com/CompVis/taming-transformers.git@master#egg=taming-transformers
+    - -e git+https://github.com/openai/CLIP.git@main#egg=clip

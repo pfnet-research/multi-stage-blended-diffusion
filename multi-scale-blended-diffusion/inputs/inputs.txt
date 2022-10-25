@@ -1,0 +1,8 @@
+# prompt; filename (assuming mask follows FOO_mask.png patter); margin_multiplier
+An Oil painting of a girl huggin a corgi on a pedestal; clarissa_strozzi.jpg; 1.4
+Statue of Roman Emperor, Canon 5D Mark 3, 35mm, flickr; marunouchi.png; 1.2
+Oil painting of Mt. Fuji, by Paul Sandby; river_severn.png; 1.3
+red hair; prof_pic.jpg; 1.1
+cyberpunk neon cityscape, digital painting, trending on artstation, David Revoy; lofi_revoy.jpg; 1.3
+a painting is hanging on the wall; bedroom_painting.jpg; 1.4
+fishing boat, lofi, dreamy, moody, very colorful, anime inspiration, ghibli vibe; stable_anime.png; 1.4
