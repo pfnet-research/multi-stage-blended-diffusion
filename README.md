@@ -2,6 +2,9 @@
 
 ![Overview of Multi-Stage Blended Diffusion](overview.jpg)
 
+
+<a href="https://replicate.com/arielreplicate/multi-stage-blended-diffusion"><img src="https://replicate.com/arielreplicate/multi-stage-blended-diffusion/badge"></a>
+
 This repository includes our implementation of Multi-Stage Blended Diffusion, as described in our paper [High-Resolution Image Editing via Multi-Stage Blended Diffusion](https://arxiv.org/abs/2210.12965)
 
 Our implementation builds on the original implementation of Latent Diffusion, available at (https://github.com/CompVis/latent-diffusion), which is licensed under the MIT license.

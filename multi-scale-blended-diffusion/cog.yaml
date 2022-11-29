@@ -1,0 +1,30 @@
+build:
+  gpu: true
+  cuda: "11.3"
+  python_version: 3.8
+  system_packages:
+    - libgl1-mesa-glx
+    - libglib2.0-0
+  python_packages:
+#    - torch==1.12.1 --extra-index-url https://download.pytorch.org/whl/cu113
+    - albumentations==1.2.1
+    - pudb==2019.2
+    - imageio==2.9.0
+    - imageio-ffmpeg==0.4.7
+    - pytorch-lightning==1.7.7
+    - kornia==0.6.5
+    - omegaconf==2.1.1
+    - test-tube==0.7.5
+    - einops==0.3.0
+    - transformers==4.24.0
+    - basicsr==1.4.2
+    - realesrgan==0.3.0
+    - torchmetrics==0.10.2
+  run:
+    - pip install --upgrade pip
+    - git clone https://github.com/CompVis/taming-transformers.git sub_modules/taming-transformers
+    - pip3 install -e sub_modules/taming-transformers
+    - git clone https://github.com/openai/CLIP.git sub_modules/CLIP
+    - pip install -e sub_modules/CLIP
+
+predict: "predict.py:Predictor"
