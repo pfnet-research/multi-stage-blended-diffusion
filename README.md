@@ -1,3 +1,6 @@
+<a href="https://colab.research.google.com/gist/JohannesAck/2c4561a8a4d1522f752b1a86f3e24c12/multiscaleblendeddiffusioncolab.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+<a href="https://replicate.com/arielreplicate/multi-stage-blended-diffusion"><img src="https://replicate.com/arielreplicate/multi-stage-blended-diffusion/badge"></a>
+
 ## High-Resolution Image Editing via Multi-Stage Blended Diffusion
 
 ![Overview of Multi-Stage Blended Diffusion](overview.jpg)
@@ -20,6 +23,7 @@ conda env create -f environment.yaml
 wget https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_x4plus.pth -P multi-scale-blended-diffusion/
 ```
 ### Usage
-To try our approach for interactive editing, use the [`multi-scale-blended-diffusion/InteractiveEditing.ipynb`](multi-scale-blended-diffusion/InteractiveEditing.ipynb) notebook.
+To try our approach for interactive editing, use the [`multi-scale-blended-diffusion/InteractiveEditing.ipynb`](multi-scale-blended-diffusion/InteractiveEditing.ipynb) notebook locally, or use our [colab demo](https://colab.research.google.com/gist/JohannesAck/2c4561a8a4d1522f752b1a86f3e24c12/multiscaleblendeddiffusioncolab.ipynb).
 
 To run, validate our approach on the examples used in our paper, use [`multi-scale-blended-diffusion/blended_latent_diffusion.py`.](multi-scale-blended-diffusion/InteractiveEditing.ipynb)
+
