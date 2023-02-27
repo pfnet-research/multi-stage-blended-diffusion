@@ -25,5 +25,5 @@ wget https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_
 ### Usage
 To try our approach for interactive editing, use the [`multi-scale-blended-diffusion/InteractiveEditing.ipynb`](multi-scale-blended-diffusion/InteractiveEditing.ipynb) notebook locally, or use our [colab demo](https://colab.research.google.com/gist/JohannesAck/2c4561a8a4d1522f752b1a86f3e24c12/multiscaleblendeddiffusioncolab.ipynb).
 
-To run, validate our approach on the examples used in our paper, use [`multi-scale-blended-diffusion/blended_latent_diffusion.py`.](multi-scale-blended-diffusion/InteractiveEditing.ipynb)
+To run, validate our approach on the examples used in our paper, use [`multi-scale-blended-diffusion/multi_scale_blended_diffusion.py`.](multi-scale-blended-diffusion/multi_scale_blended_diffusion.py)
 
